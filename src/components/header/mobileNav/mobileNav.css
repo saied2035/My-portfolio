@@ -1,0 +1,13 @@
+.mobile-nav-item {
+  color: #048ba8;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid #048ba8;
+}
+
+.mobile-nav-item:hover,
+.mobile-nav-item:focus {
+  color: #f2f4f3;
+  background-color: #048ba8;
+  border: 1px solid #f2f4f3;
+}
