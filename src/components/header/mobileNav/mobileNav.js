@@ -1,4 +1,4 @@
-import './mobileNav.css';
+import '../nav.css';
 import { useState } from 'react';
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
 import navItems from '../navItems';
@@ -32,7 +32,11 @@ const MobileNav = () => {
         {
            navItems.map((item) => (
              <li key={item}>
-               <a className="mobile-nav-item db fw6 pa1 br3" href={`#${item}`}>
+               <a
+                 className="mobile-nav-item db fw6 pa1 br3"
+                 href={`#${item}`}
+                 onClick={() => setMenu(!menu)}
+               >
                  {item}
                </a>
              </li>
