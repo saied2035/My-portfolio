@@ -34,7 +34,7 @@ const MobileNav = () => {
              <li key={item}>
                <a
                  className="mobile-nav-item db fw6 pa1 br3"
-                 href={`#${item}`}
+                 href={`#${item.toLowerCase()}`}
                  onClick={() => setMenu(!menu)}
                >
                  {item}

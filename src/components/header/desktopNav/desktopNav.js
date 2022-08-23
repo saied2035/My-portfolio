@@ -3,24 +3,21 @@ import '../nav.css';
 import navItems from '../navItems';
 
 const DesktopNav = () => {
-  const active = {
-    color: '#f2f4f3',
-    backgroundColor: '#048ba8',
-    border: '1px solid #f2f4f3',
-  };
   const hideNavStyle = {
-    height: '0',
+    transition: '0.25s',
+    opacity: '0',
     backgroundColor: '#f2f4f3',
     overflow: 'hidden',
     border: 'none',
+    top: '0',
   };
   const showNavStyle = {
-    transition: 'height 0.75s',
-    height: '10vh',
+    transition: '1.5s',
+    opacity: '1',
     backgroundColor: '#f2f4f3',
     overflow: 'hidden',
+    top: '0',
   };
-  const [activeMenu, setActiveMenu] = useState('');
   const [timer, setTimer] = useState(null);
   const [scrollValue, setScrollValue] = useState(0);
   const [hideNav, setHideNav] = useState(false);
@@ -51,9 +48,7 @@ const DesktopNav = () => {
         <li key={item}>
           <a
             className="nav-item db fw6 pa1 pl2 pr2 br3 grow"
-            href={`#${item}`}
-            onClick={() => setActiveMenu(item)}
-            style={activeMenu === item ? active : {}}
+            href={`#${item.toLowerCase()}`}
           >
             {item}
           </a>

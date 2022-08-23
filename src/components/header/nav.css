@@ -1,4 +1,5 @@
-.mobile-nav-item, .nav-item {
+.mobile-nav-item,
+.nav-item {
   color: #048ba8;
   background-color: transparent;
   text-decoration: none;
@@ -13,14 +14,23 @@
 }
 
 .desktop-nav {
-	box-shadow: 1px 1px 1rem #94849B;
+  box-shadow: 1px 1px 0.5rem #766c7f;
 }
+
 .nav-item {
-	transition: 0.5s;
+  transition: 0.5s;
 }
+
 .nav-item:hover {
   color: #f2f4f3;
   background-color: #048ba8;
   border: 1px solid #f2f4f3;
   transform: scale(1.25);
+}
+
+.nav-item:active {
+  color: #f2f4f3;
+  background-color: #048ba8;
+  border: 1px solid #f2f4f3;
+  transform: scale(0.75);
 }
