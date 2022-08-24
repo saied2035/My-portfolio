@@ -18,3 +18,7 @@ code {
     'Courier New',
     monospace;
 }
+
+nav {
+  z-index: 50;
+}
