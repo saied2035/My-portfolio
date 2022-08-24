@@ -13,10 +13,6 @@
   border: 1px solid #f2f4f3;
 }
 
-.desktop-nav {
-  box-shadow: 1px 1px 0.5rem #766c7f;
-}
-
 .nav-item {
   transition: 0.5s;
 }
