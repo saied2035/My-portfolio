@@ -8,6 +8,7 @@ const WorkSection = () => (
     style={{
       columnGap: '1rem',
       backgroundColor: 'rgba(174,195,176,0.3)',
+      boxShadow: '0.5px red',
     }}
   >
     <p className="f2 tc w-100 mb0 b">Here&apos;s all the stuff I do.</p>
