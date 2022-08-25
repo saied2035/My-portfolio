@@ -1,17 +1,17 @@
-#work > div {
+#work > .info-card {
   flex: auto;
   min-width: auto;
 }
 
 @media only screen and (min-width: 480px) {
-  #work > div {
+  #work > .info-card {
     flex: 0.5;
     min-width: 400px;
   }
 }
 
 @media only screen and (min-width: 961px) {
-  #work > div {
+  #work > .info-card {
     flex: 1;
     min-width: 288.325px;
   }
