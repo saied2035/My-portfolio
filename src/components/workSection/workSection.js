@@ -8,10 +8,10 @@ const WorkSection = () => (
     style={{
       columnGap: '1rem',
       backgroundColor: 'rgba(174,195,176,0.3)',
-      boxShadow: '0.5px red',
+      boxShadow: '1px 1px 0.5rem #766C7F',
     }}
   >
-    <p className="f2 tc w-100 mb0 b">Here&apos;s all the stuff I do.</p>
+    <p className="f2 tc w-100 mb0 b" style={{ color: '#0a0908' }}>Here&apos;s all the stuff I do.</p>
     <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Briefly, Security, performance, and efficiency.</p>
     {cards.map((card) => (
       <div

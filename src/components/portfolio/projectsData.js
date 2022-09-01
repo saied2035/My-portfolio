@@ -54,7 +54,7 @@ const projects = [
     technologies: [
       {
         name: 'Ruby on Rails',
-        link: 'https://rubyonrails.org/',
+        link: 'https://github.com/rails/rails',
       },
       {
         name: 'Devise',
@@ -137,7 +137,7 @@ const projects = [
     preview: movies2WatchImgPreview,
     technologies: [
       {
-        name: 'JavaScript/JavaScript modules/ES6',
+        name: 'JavaScript/ES6',
         link: 'https://github.com/lukehoban/es6features',
       },
       {
