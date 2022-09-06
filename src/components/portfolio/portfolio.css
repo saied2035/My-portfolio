@@ -50,3 +50,8 @@
 .project-detail:active {
   transform: scale(0.9);
 }
+
+.popup-card > * {
+  margin: 0;
+  padding: 0;
+}

@@ -6,29 +6,41 @@ import TechList from '../techList/techList';
 const PopupProject = ({
   popupPreview, name, technologies, info, demo, source, showPopup, id,
 }) => (
-  <div>
-    <AiOutlineCloseCircle onClick={() => showPopup(0)} />
-    <img
-      alt="work-card"
-      src={popupPreview}
+  <div className="fixed vh-100 w-100" style={{ top: 0, zIndex: 50, backdropFilter: 'blur(5px)' }}>
+    <div
+      className="popup-card center mt3-ns mb3-ns mt2-m mb2-m mt0 mb0 flex flex-column h-auto-ns
+      h-100 w-50-ns w-70-m w-100 pa3"
       style={{
-        objectFit: 'cover',
-        objectPosition: 'center',
+        gap: '1rem',
+        backgroundColor: '#F3E8EE',
+        maxHeight: '100vh',
       }}
-    />
-    <h2>{name}</h2>
-    <TechList id={id} technologies={technologies} />
-    <p>{info}</p>
-    <a className="db" href={demo}>
-      Live Demo
-      {' '}
-      <BiLinkExternal />
-    </a>
-    <a className="db" href={source}>
-      Source Code
-      {' '}
-      <AiFillGithub />
-    </a>
+    >
+      <AiOutlineCloseCircle onClick={() => showPopup(0)} />
+      <img
+        alt="work-card"
+        src={popupPreview}
+        className="w-100"
+        style={{
+          height: '12rem',
+          objectFit: 'contain',
+          objectPosition: 'center',
+        }}
+      />
+      <h2>{name}</h2>
+      <TechList id={id} technologies={technologies} />
+      <p style={{ height: '6rem', overflow: 'auto' }}>{info}</p>
+      <a className="db" href={demo}>
+        Live Demo
+        {' '}
+        <BiLinkExternal />
+      </a>
+      <a className="db" href={source}>
+        Source Code
+        {' '}
+        <AiFillGithub />
+      </a>
+    </div>
   </div>
 );
 PopupProject.propTypes = {

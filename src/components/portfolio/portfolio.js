@@ -4,7 +4,7 @@ import Projects from './projects/projects';
 const Portfolio = () => (
   <section
     id="portfolio"
-    className="flex justify-center flex-wrap pa3"
+    className="flex relative justify-center flex-wrap pa3"
     style={{
       columnGap: '5rem',
       backgroundColor: 'rgba(206, 237, 219, 0.3)',
