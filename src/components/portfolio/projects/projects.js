@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import projects from './projectsData';
 import Project from './project/project';
 import PopupProject from './popupProject/popupProject';
@@ -9,7 +9,7 @@ const Projects = () => {
     projects.map(({
       preview, name, technologies, popupPreview, info, demo, source, id,
     }) => (
-      <>
+      <React.Fragment key={`project${id}`}>
         <Project
           id={id}
           preview={preview}
@@ -30,7 +30,7 @@ const Projects = () => {
           />
           )
         }
-      </>
+      </React.Fragment>
     ))
   );
 };

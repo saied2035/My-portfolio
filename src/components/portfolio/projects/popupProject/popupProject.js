@@ -9,7 +9,7 @@ const PopupProject = ({
   <div className="fixed vh-100 w-100" style={{ top: 0, zIndex: 50, backdropFilter: 'blur(5px)' }}>
     <div
       className="popup-card center mt3-ns mb3-ns mt2-m mb2-m mt0 mb0 flex flex-column h-auto-ns
-      h-100 w-50-ns w-70-m w-100 pa3"
+      h-100 w-50-ns w-80-m w-100 pa3"
       style={{
         gap: '1rem',
         backgroundColor: '#F3E8EE',
@@ -22,9 +22,9 @@ const PopupProject = ({
         src={popupPreview}
         className="w-100"
         style={{
-          height: '12rem',
+          height: '200px',
           objectFit: 'contain',
-          objectPosition: 'center',
+          objectPosition: '0',
         }}
       />
       <h2>{name}</h2>

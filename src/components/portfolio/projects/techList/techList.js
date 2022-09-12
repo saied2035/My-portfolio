@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import TechsContainer from './techsContainer/techsContainer';
+import Techs from './techs/techs';
 
 const TechList = ({ technologies }) => (
   <ul className="list flex flex-wrap justify-center mb4" style={{ gap: '0.5rem' }}>
-    <TechsContainer technologies={technologies} />
+    <Techs technologies={technologies} />
   </ul>
 );
 TechList.propTypes = {
