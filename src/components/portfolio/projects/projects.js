@@ -20,6 +20,7 @@ const Projects = () => {
         {
           id === show && (
           <PopupProject
+            id={id}
             showPopup={setShow}
             popupPreview={popupPreview}
             name={name}

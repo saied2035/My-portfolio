@@ -51,7 +51,32 @@
   transform: scale(0.9);
 }
 
+.popup-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .popup-card > * {
   margin: 0;
-  padding: 0;
+  padding: 1rem 0;
+
 }
+
+.effect-fade-in {
+  animation: 1s fade-in forwards;
+}
+
+@keyframes fade-in {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.effect-fade-out {
+animation: 1s fade-out forwards;
+}
+
+@keyframes fade-out {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+

@@ -25,7 +25,7 @@ const Project = ({
     >
       {name}
     </h2>
-    <TechList id={id} technologies={technologies} />
+    <TechList technologies={technologies} />
     <button
       type="button"
       className="project-detail pointer pa2 pl3 pr3 br3 tc b--none center"

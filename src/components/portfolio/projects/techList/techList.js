@@ -8,6 +8,9 @@ const TechList = ({ technologies, popup }) => (
 );
 TechList.propTypes = {
   technologies: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)).isRequired,
-  popup: PropTypes.oneOf([true, undefined]).isRequired,
+  popup: PropTypes.oneOf([true, false]),
+};
+TechList.defaultProps = {
+  popup: false,
 };
 export default TechList;
