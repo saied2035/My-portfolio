@@ -59,7 +59,6 @@
 .popup-card > * {
   margin: 0;
   padding: 1rem 0;
-
 }
 
 .effect-fade-in {
@@ -67,16 +66,15 @@
 }
 
 @keyframes fade-in {
-  0% {opacity: 1}
-  100% {opacity: 0}
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .effect-fade-out {
-animation: 1s fade-out forwards;
+  animation: 1s fade-out forwards;
 }
 
 @keyframes fade-out {
-  0% {opacity: 0}
-  100% {opacity: 1}
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
-
