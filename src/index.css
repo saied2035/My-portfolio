@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/open-sans');
 
-input {
+input,
+textarea {
   border: none;
 }
 

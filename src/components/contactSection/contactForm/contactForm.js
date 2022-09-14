@@ -16,9 +16,9 @@ const ContactForm = () => {
         style={{ marginLeft: 'auto' }}
         required
       />
-      <input className="w-100 br3 pa3" placeholder="subject" type="text" required />
+      <input className="w-100 br3 pa3" placeholder="Subject" type="text" required />
       <textarea className="w-100 br3 pa3" placeholder="Message" required />
-      <div className="flex flex-row-ns flex-column justify-center mb4" style={{ gap: '0.5rem 1rem' }}>
+      <div className="flex flex-row-ns flex-column justify-center" style={{ gap: '0.5rem 1rem' }}>
         <input
           className="submit-btn pointer pa2 pl3 pr3 br3 tc b--none center f4 fw6"
           type="submit"
