@@ -1,0 +1,80 @@
+#portfolio > .project-card {
+  flex: auto;
+  min-width: auto;
+}
+
+@media only screen and (min-width: 480px) {
+  #portfolio > .project-card {
+    flex: 0.5;
+    min-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  #portfolio > .project-card {
+    flex: 1;
+    min-width: 288.325px;
+  }
+}
+
+.tech-link {
+  color: white;
+  background-color: rgba(10, 9, 8, 0.3);
+  transition: 0.75s;
+}
+
+.tech-link:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: #0a0908;
+}
+
+.tech-link:active {
+  transform: scale(0.9);
+}
+
+.project-detail {
+  transition: 0.5s;
+  color: #f2f4f3;
+  margin-top: auto;
+  background-color: #048ba8;
+}
+
+.project-detail:hover {
+  color: #048ba8;
+  font-weight: 600;
+  background-color: #f2f4f3;
+  transform: scale(1.1);
+}
+
+.project-detail:active {
+  transform: scale(0.9);
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-card > * {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.effect-fade-in {
+  animation: 1s fade-in forwards;
+}
+
+@keyframes fade-in {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.effect-fade-out {
+  animation: 1s fade-out forwards;
+}
+
+@keyframes fade-out {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
