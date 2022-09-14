@@ -2,14 +2,22 @@ import './workSection.css';
 import cards from './workCards';
 
 const WorkSection = () => (
-  <section id="work" className="flex flex-wrap pa4 pb3 pt0" style={{ columnGap: '1rem' }}>
-    <p className="f2 tc w-100 mb0 b">Here&apos;s all the stuff I do.</p>
+  <section
+    id="work"
+    className="flex flex-wrap pa4-ns pa2 pb3 pt0"
+    style={{
+      columnGap: '1rem',
+      backgroundColor: 'rgba(174,195,176,0.3)',
+      boxShadow: '1px 1px 0.5rem #766C7F',
+    }}
+  >
+    <p className="f2 tc w-100 mb0 b" style={{ color: '#0a0908' }}>Here&apos;s all the stuff I do.</p>
     <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Briefly, Security, performance, and efficiency.</p>
     {cards.map((card) => (
       <div
         key={`${card.id}`}
-        className="grow flex center flex-column br3 pl2 pr2 mb2"
-        style={{ backgroundColor: 'rgba(80,114,60,0.2)' }}
+        className="info-card grow flex center flex-column br3 pl2 pr2 mb3"
+        style={{ backgroundColor: '#fff' }}
       >
         <img
           alt="work-card"
@@ -21,9 +29,24 @@ const WorkSection = () => (
             objectPosition: 'center',
           }}
         />
-        <p className="tc f4 fw5" style={{ color: 'black' }}>{card.info}</p>
+        <p className="tc f4 fw6" style={{ color: '#0a0908' }}>{card.info}</p>
       </div>
     ))}
+    <div className="w-100 flex flex-column items-center justify-center">
+      <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Do you want to explore more?</p>
+      <a
+        role="button"
+        href="#portfolio"
+        className="pa4 pl5-ns pr5-ns pl3 pr3 f4 mt2 br-pill mb4 tc"
+        style={{
+          color: '#FFF',
+          backgroundColor: '#048ba8',
+          textDecoration: 'none',
+        }}
+      >
+        See some of my recent work
+      </a>
+    </div>
   </section>
 );
 export default WorkSection;
