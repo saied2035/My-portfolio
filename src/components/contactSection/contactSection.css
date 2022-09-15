@@ -11,6 +11,34 @@ textarea {
   background-color: rgb(242, 244, 243);
 }
 
+.download-btn {
+      -webkit-animation-name: bounce;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-delay: 0s;
+}
+@keyframes bounce {
+  0% {
+    transform: translateX(6px);
+  }
+
+  2% {
+    transform: translateX(-6px);
+  }
+
+  4% {
+    transform: translateX(6px);
+  }
+
+  6% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
 .submit-btn, .download-btn {
   transition: 0.5s;
   color: #f2f4f3;
@@ -23,7 +51,7 @@ textarea {
   transform: scale(1.1);
 }
 
-.submit-btn:active, .download-btn:active {
+.submit-btn:active {
   transform: scale(0.9);
 }
 
