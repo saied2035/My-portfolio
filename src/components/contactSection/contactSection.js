@@ -1,6 +1,6 @@
 import './contactSection.css';
 import ContactForm from './contactForm/contactForm';
-import SocialMedia from './socialMedia/socialMedia';
+import Footer from './footer/footer';
 
 const ContactSection = () => (
   <section
@@ -11,7 +11,7 @@ const ContactSection = () => (
     <p className="f2 tc w-100 mb0 mt5 b" style={{ color: '  ' }}>Contact Form</p>
     <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Feel free to send me a message</p>
     <ContactForm />
-    <SocialMedia />
+    <Footer />
   </section>
 );
 export default ContactSection;
