@@ -7,7 +7,7 @@ const PopupProject = ({
   popupPreview, name, technologies, info, demo, source, showPopup, id,
 }) => {
   const [fade, setFade] = useState(false);
-  const [changePopup, setChangePopup] = useState(null);
+  const [changePopup, setChangePopup] = useState(0);
   const popupContainerStyle = { top: 0, zIndex: 50, backdropFilter: 'blur(5px)' };
   const PopupDetailsContainerStyle = { backgroundColor: '#f2f4f3', maxHeight: '100vh' };
   return (
