@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://saied2035.github.io/portfolio/)
+[Live Demo Link](https://saiedgaffer.netlify.app/)
 
 
 ## Getting Started
