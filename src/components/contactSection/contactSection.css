@@ -1,0 +1,71 @@
+.contact-form {
+  gap: 1rem 0.5rem;
+}
+
+textarea {
+  height: 15em;
+}
+
+.contact-form > input,
+.contact-form > textarea {
+  background-color: rgb(242, 244, 243);
+}
+
+.submit-btn,
+.reset-btn {
+  transition: 0.5s;
+  color: #f2f4f3;
+  background-color: #048ba8;
+}
+
+.submit-btn:hover {
+  color: #048ba8;
+  background-color: #f2f4f3;
+  transform: scale(1.1);
+}
+
+.submit-btn:active {
+  transform: scale(0.9);
+}
+
+.reset-btn {
+  transition: 0.5s;
+  color: #f2f4f3;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.reset-btn:hover {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #f2f4f3;
+  font-weight: bolder;
+  transform: scale(1.1);
+}
+
+.social-link {
+  transition: 0.5s;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  color: #048ba8;
+}
+
+.social-link:active,
+.reset-btn:active {
+  transform: scale(0.9);
+}
+
+@media screen and (min-width: 30em) {
+  .contact-form > input:nth-child(1),
+  .contact-form > input:nth-child(2) {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .contact-form > input:nth-child(1),
+  .contact-form > input:nth-child(2) {
+    width: 100%;
+  }
+}
