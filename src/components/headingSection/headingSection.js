@@ -1,3 +1,4 @@
+import './headingSection.css';
 import face from './my-face.png';
 
 const HeadingSection = () => (

@@ -1,0 +1,38 @@
+#top > img {
+  -webkit-animation-name: slideimagein;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.1s;
+}
+
+@keyframes slideimagein {
+  from { margin-left: -200%; }
+  to { margin-left: 0%; }
+}
+
+#top > aside {
+  opacity: 0;
+  -webkit-animation-name: slideasidein;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.75s;
+}
+
+@keyframes slideasidein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (min-width: 30em) {
+  @keyframes slideimagein {
+    from { margin-left: -40%; }
+    to { margin-left: 0%; }
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  @keyframes slideimagein {
+    from { margin-left: -160%; }
+    to { margin-left: 0%; }
+  }
+}
