@@ -11,12 +11,13 @@ const MobileNav = () => {
       style={{ gap: '0.5rem', backgroundColor: `${menu ? '#f2f4f3' : ''}` }}
     >
       <AiOutlineMenuUnfold
-        className="dn-ns"
+        className="dn-ns mt1 f3"
         onClick={() => setMenu(!menu)}
         style={{
           transition: 'transform 0.75s, margin 0.75s',
           transform: `${menu ? 'rotate(180deg)' : ''}`,
-          marginLeft: `${menu ? '80%' : '0%'}`,
+          marginLeft: `${menu ? '65%' : '20%'}`,
+          marginTop: `${menu ? '0' : '0.25rem'}`,
           color: '#0a0908',
         }}
       />

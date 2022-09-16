@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
    run 
    `npm start`
-   
+
 ## Authors
 
 👤 **Saied Gaffer**

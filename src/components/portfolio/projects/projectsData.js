@@ -85,7 +85,7 @@ const projects = [
       },
     ],
     popupPreview: recipeAppPopupImgPreview,
-    info: 'A web app which help users to buy and sell recipies online with food and incredients.',
+    info: 'A web app which help users to buy and sell recipies online with food and ingredients.',
     demo: 'https://whispering-headland-59856.herokuapp.com/',
     source: 'https://github.com/saied2035/Recipe-app',
   },
