@@ -4,6 +4,8 @@
 
 > This Portfolio explains my knowledge, experience, and what I am capable of achieving. It consists of four sections. The Heading Section provides brief information about me. The Work Section gives information about the type of work I do. The Portfolio Section shows six projects which I am proud of them. Contact Section includes the contact form, My Resume, and social media links.
 
+![Screenshot 2022-09-15 174425](https://user-images.githubusercontent.com/70805060/190448689-b631a2a6-8ca3-43af-9213-6e2d08663c13.jpg)
+
 
 ## Built With
 
@@ -30,11 +32,6 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
    run 
    `npm start`
-### Run tests
-   `npx stylelint "**/*.{css,scss}"` for CSS check
-   `npx stylelint "**/*.{css,scss}" --fix` to fix CSS isues if found
-   `npx elint .` for JS check
-   `npx elint . --fix` to fix JS isues if found
 
 ## Authors
 
