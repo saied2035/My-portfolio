@@ -7,8 +7,15 @@
 }
 
 @keyframes slideimagein {
-  from { opacity: 1; margin-left: -200%; }
-  to { opacity: 1; margin-left: 0%; }
+  from {
+    opacity: 1;
+    margin-left: -200%;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 0%;
+  }
 }
 
 #top > aside {
@@ -26,14 +33,28 @@
 
 @media screen and (min-width: 30em) {
   @keyframes slideimagein {
-    from { opacity: 1; margin-left: -40%; }
-    to { opacity: 1; margin-left: 0%; }
+    from {
+      opacity: 1;
+      margin-left: -40%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+    }
   }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
   @keyframes slideimagein {
-    from { opacity: 1; margin-left: -160%; }
-    to { opacity: 1; margin-left: 0%; }
+    from {
+      opacity: 1;
+      margin-left: -160%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+    }
   }
 }
