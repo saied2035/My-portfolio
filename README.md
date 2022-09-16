@@ -31,9 +31,10 @@ To get a local copy up and running follow these simple example steps.
    run 
    `npm start`
 ### Run tests
-   `npx hint .` for html check. giving hints about what is needed to and to your html page
-   `npx stylelint "**/*.{css,scss}"` for css check
-   `npx stylelint "**/*.{css,scss}" --fix` to fix css isues if found
+   `npx stylelint "**/*.{css,scss}"` for CSS check
+   `npx stylelint "**/*.{css,scss}" --fix` to fix CSS isues if found
+   `npx elint .` for JS check
+   `npx elint . --fix` to fix JS isues if found
 
 ## Authors
 
