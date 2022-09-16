@@ -87,3 +87,42 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.download-btn {
+  transition: 0.5s;
+  color: #f2f4f3;
+  background-color: #048ba8;
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(6px);
+  }
+
+  2% {
+    transform: translateX(-6px);
+  }
+
+  4% {
+    transform: translateX(6px);
+  }
+
+  6% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.download-btn:hover {
+  color: #048ba8;
+  background-color: #f2f4f3;
+  transform: scale(1.1);
+}
