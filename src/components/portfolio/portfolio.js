@@ -6,7 +6,6 @@ const Portfolio = () => (
     id="portfolio"
     className="flex relative justify-center flex-wrap pa3"
     style={{
-      columnGap: '5rem',
       backgroundColor: 'rgba(206, 237, 219, 0.3)',
     }}
   >
