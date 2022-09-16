@@ -1,13 +1,14 @@
 #top > img {
+  opacity: 0;
   -webkit-animation-name: slideimagein;
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
-  -webkit-animation-delay: 0.1s;
+  -webkit-animation-delay: 0s;
 }
 
 @keyframes slideimagein {
-  from { margin-left: -200%; }
-  to { margin-left: 0%; }
+  from { opacity: 1; margin-left: -200%; }
+  to { opacity: 1; margin-left: 0%; }
 }
 
 #top > aside {
@@ -25,14 +26,14 @@
 
 @media screen and (min-width: 30em) {
   @keyframes slideimagein {
-    from { margin-left: -40%; }
-    to { margin-left: 0%; }
+    from { opacity: 1; margin-left: -40%; }
+    to { opacity: 1; margin-left: 0%; }
   }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
   @keyframes slideimagein {
-    from { margin-left: -160%; }
-    to { margin-left: 0%; }
+    from { opacity: 1; margin-left: -160%; }
+    to { opacity: 1; margin-left: 0%; }
   }
 }
