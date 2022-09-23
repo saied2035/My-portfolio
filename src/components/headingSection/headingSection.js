@@ -24,7 +24,12 @@ const HeadingSection = () => (
         {' '}
         Saied Gaffer
       </h1>
-      <p className="f4 mt0 w-100 tl-ns tc-m tc pa0-ns pl5-m pr5-m" style={{ lineHeight: '1.2', color: '#766C7F' }}>
+      <p
+        className="f4 mt0 w-100 tl-ns tc-m tc pa0-ns pl5-m pr5-m"
+        style={
+        { lineHeight: '1.2', color: '#766C7F', wordSpacing: '0.25px' }
+}
+      >
         A software developer who builds web applications using React, Redux, and Ruby on Rails.
         Furthermore, an open-source enthusiast with a love for clean code, performance, efficiency,
         and accessibility. Pair-programming and remote work aficionado.

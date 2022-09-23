@@ -17,7 +17,7 @@ const MobileNav = () => {
           transition: 'transform 0.75s, margin 0.75s',
           transform: `${menu ? 'rotate(180deg)' : ''}`,
           marginLeft: `${menu ? '65%' : '20%'}`,
-          marginTop: `${menu ? '0' : '0.25rem'}`,
+          marginTop: '0.25rem',
           color: '#0a0908',
         }}
       />

@@ -13,7 +13,7 @@ const Portfolio = () => (
     <p className="f2 tc w-100 mb0 b" style={{ color: '#0a0908' }}>My recent work</p>
     <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Take a look at some work that I am proud of</p>
     <Projects />
-    <p className="f4 w-100 tc mb4" style={{ color: '#766C7F' }}>More detalis about me?</p>
+    <p className="f4 w-100 tc mb4" style={{ color: '#766C7F' }}>More details about me?</p>
     <Resume />
     <p className="f4 w-100 tc" style={{ color: '#766C7F' }}>Would you like to contact me?</p>
     <a
