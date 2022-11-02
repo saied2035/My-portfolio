@@ -85,7 +85,7 @@ const projects = [
       },
     ],
     popupPreview: robofriendsPopupImgPreview,
-    info: 'A website displays robots. It has immediate search for a robot by name. This website is built by React, and Redux.',
+    info: 'Robofriends is a website that displays robots and has an instant search by name. I built the website built by React and Redux.',
     demo: 'https://saied2035.github.io/robofriends-react/',
     source: 'https://github.com/saied2035/robofriends-react',
   },
