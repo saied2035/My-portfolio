@@ -2,8 +2,8 @@ import flightfullImgPreview from './screenshots/Flightfull/preview.jpg';
 import flightfullPopupImgPreview from './screenshots/Flightfull/popup-preview.jpg';
 import budgetAppImgPreview from './screenshots/Budget-app/preview.jpg';
 import budgetAppPopupImgPreview from './screenshots/Budget-app/popup-preview.jpg';
-import recipeAppImgPreview from './screenshots/Recipe-app/preview.jpg';
-import recipeAppPopupImgPreview from './screenshots/Recipe-app/popup-preview.jpg';
+import robofriendsImgPreview from './screenshots/Robofriends/preview.jpg';
+import robofriendsPopupImgPreview from './screenshots/Robofriends/popup-preview.jpg';
 import spaceTravellerImgPreview from './screenshots/Space-traveller/preview.jpg';
 import spaceTravellerPopupImgPreview from './screenshots/Space-traveller/popup-preview.jpg';
 import mathMagicianImgPreview from './screenshots/Math-magician/preview.jpg';
@@ -72,22 +72,22 @@ const projects = [
   },
   {
     id: 3,
-    name: 'Recipe app',
-    preview: recipeAppImgPreview,
+    name: 'Robofriends',
+    preview: robofriendsImgPreview,
     technologies: [
       {
-        name: 'Ruby on Rails',
-        link: 'https://github.com/rails/rails',
+        name: 'React',
+        link: 'https://github.com/facebook/react',
       },
       {
-        name: 'Devise',
-        link: 'https://github.com/heartcombo/devise',
+        name: 'Redux',
+        link: 'https://github.com/reduxjs/redux',
       },
     ],
-    popupPreview: recipeAppPopupImgPreview,
-    info: 'A web app which help users to buy and sell recipies online with food and ingredients.',
-    demo: 'https://whispering-headland-59856.herokuapp.com/',
-    source: 'https://github.com/saied2035/Recipe-app',
+    popupPreview: robofriendsPopupImgPreview,
+    info: 'A website displays robots. It has immediate search for a robot by name. This website is built by React, and Redux.',
+    demo: 'https://saied2035.github.io/robofriends-react/',
+    source: 'https://github.com/saied2035/robofriends-react',
   },
   {
     id: 4,
