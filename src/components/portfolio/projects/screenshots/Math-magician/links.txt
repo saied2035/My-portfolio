@@ -1,2 +1,0 @@
-live demo: https://math-magic-site.netlify.app/
-repo: https://github.com/saied2035/math-magicians-full-website
