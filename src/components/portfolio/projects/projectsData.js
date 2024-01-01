@@ -32,7 +32,7 @@ const projects = [
     ],
     popupPreview: budgetAppPopupImgPreview,
     info: 'RoR app that helps users to add their categories and transactions.',
-    demo: 'https://rails-budget-app-production.up.railway.app/',
+    demo: 'https://budget-app-ppyy.onrender.com/',
     source: 'https://github.com/saied2035/Rails-budget-app',
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     ],
     popupPreview: smartBrainPopupImgPreview,
     info: 'The Smart Brain Project is a web app that detects faces and guesses their genders, ages, and mood. it got built with React & Redux front-end side and Nodejs & Postgresql back-end side.',
-    demo: 'https://saied2035.github.io/smartbrain/',
+    demo: 'https://smart-brain-me.netlify.app/',
     source: 'https://github.com/saied2035/smartbrain',
   },
   {
@@ -87,15 +87,11 @@ const projects = [
         name: 'JWT',
         link: 'https://github.com/jwt/ruby-jwt',
       },
-      {
-        name: 'Rswag',
-        link: 'https://github.com/rswag/rswag',
-      },
     ],
     popupPreview: flightfullPopupImgPreview,
     info: "Flightfull is a flight reservations website that use REST API. Users can manage their own flights and reserve others' flights.",
     demo: 'https://flightfull.netlify.app/',
-    source: 'https://github.com/saied2035/Flightfull-frontend',
+    source: 'https://github.com/saied2035/flightfull',
   },
   {
     id: 4,
